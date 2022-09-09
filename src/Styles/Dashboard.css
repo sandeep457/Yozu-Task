@@ -1,0 +1,59 @@
+.navbar{
+    overflow: hidden;
+    background-color: lightblue;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.cards{
+    margin: 20px 20px 0px 20px;
+      height: 300px;
+      padding: 25px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+  
+.cards .title{
+    font-size: 30px;
+    color: #464e56;
+    font-weight: 600;
+}
+  
+.cards .content{
+    font-size: 12px;
+    font-weight: 500;
+    color: #868e94;
+    text-align: left;
+    margin-bottom: 1rem;
+    height: 160px;
+    padding-left: 2px;
+    max-height: 160px;
+    overflow: auto;
+    padding-top: 5px;
+}
+
+.cards .date{
+   font-size: 12px;
+   font-weight: 500;
+   color: #868e94;
+   text-align: left;
+}
+
+.cards .tags{
+    font-size: 12px;
+    font-weight: 500;
+    color: #868e94;
+    text-align: left;
+}
+
+.cards .date span:last-child, .cards .tags span:last-child{
+  padding-left: 5px;
+  margin-top:3px;
+}
+
+.MuiBox-root{
+  border-radius: 16px;
+}
